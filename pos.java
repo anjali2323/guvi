@@ -9,18 +9,18 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int num;
-		Scanner sc=new Scanner(System.in);
-		 num=sc.nextInt();
-		if(num>0)
+		int n;
+		Scanner s=new Scanner(System.in);
+		 n=s.nextInt();
+		if(n>0)
 		{
 			System.out.println("Positive");
 		}
-		else if(num<0)
+		else if(n<0)
 		{
 			System.out.println("Negative");
 		}
-		else if(num==0)
+		else if(n==0)
 		{
 		System.out.println("Zero");
 		}
