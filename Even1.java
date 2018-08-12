@@ -10,12 +10,12 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner s=new Scanner(System.in);
-		int n;
-		n=s.nextInt();
-		if(n>0)
+		Scanner sc=new Scanner(System.in);
+		int num;
+		num=sc.nextInt();
+		if(num>0)
 		{
-		if(n%2==0)
+		if(num%2==0)
 		{
 			System.out.println("Even");
 		}
